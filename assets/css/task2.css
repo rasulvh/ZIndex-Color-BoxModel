@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.main{
+    height: 753px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243,243,243);
+}
+
+.main .main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .card{
+    height: 400px;
+    width: 800px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .card .left-side{
+    background-color: rgb(30,97,175);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.main .card .left-side .left-items img{
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.main .card .left-side .left-items h2{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.main .card .left-side .left-items span{
+    color: white;
+    margin-left: 45px;
+    font-size: 17px;
+    position: relative;
+    top: 5px;
+}
+
+.main .card .right-side{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 450px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.main .card .right-side h2{
+    color: rgb(47, 91, 112);
+    text-align: center;
+    margin-top: 36px;
+}
+
+.main .card .right-side hr{
+    width: 350px;
+    margin-left: 50px;
+    margin-top: 8px;
+    opacity: 0.5;
+}
+
+.main .card .right-side .email{
+    display: inline-block;
+}
+
+.main .card .right-side .email h3{
+    color: rgb(47, 91, 112);
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.main .card .right-side .email span{
+    margin-left: 50px;
+    position: relative;
+    top: 5px;
+    font-size: 17px;
+}
+
+.main .card .right-side .phone{
+    display: inline-block;
+}
+
+.main .card .right-side .phone h3{
+    color: rgb(47, 91, 112);
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+.main .card .right-side .phone span{
+    margin-left: 80px;
+    position: relative;
+    top: 5px;
+    font-size: 17px;
+}
+
+.main .card .right-side .icons{
+    height: 75px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .card .right-side .icons ul{
+    display: flex;
+}
+
+.main .card .right-side .icons ul li{
+    list-style: none;
+}
+
+.main .card .right-side .icons ul li a{
+    font-size: 40px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.main .card .right-side .icons ul li a i{
+    background-color: rgb(30,84,161);
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    width: 60px;
+    height: 50px;
+    padding-top: 14px;
+}
