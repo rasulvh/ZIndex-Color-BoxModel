@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.main{
+    background-color: rgb(218, 218, 117);
+    height: 753px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .card{
+    height: 400px;
+    width: 800px;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.main .main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .card .left-side{
+    background-color: rgb(226,108,98);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    width: 250px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.main .card .right-side{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 550px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.main .card .left-side .left-items .level{
+    color: white;
+    position: relative;
+    left: 32px;
+    top: 56px;
+    background-color: rgb(191,90,82);
+    width: 84px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.main .card .left-side .left-items img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 100px;
+}
+
+.main .card .left-side .left-items .point{
+    color: white;
+    position: relative;
+    top: 156px;
+    left: 23px;
+    background-color: rgb(191,90,82);
+    border-radius: 10px;
+    padding: 5px;
+    width: 110px;
+}
+
+.main .card .right-side h1{
+    position: relative;
+    margin-top: 49px;
+    width: 150px;
+    margin-left: 199px;
+}
+
+.main .card .right-side p{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+}
+
+.main .card .right-side span{
+    position: relative;
+    top: 120px;
+    left: 300px;
+}
