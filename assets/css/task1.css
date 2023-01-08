@@ -10,7 +10,7 @@ body{
 
 .main{
     background-color: rgb(218, 218, 117);
-    height: 753px;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
